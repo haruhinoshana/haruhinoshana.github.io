@@ -31,7 +31,7 @@
            
   
 </head>
-<body>
+<body onselectstart="return false">
 
 <div class="navbar navbar-custom navbar-fixed-top" style="margin-bottom:0px; ">
   <div class="container">
@@ -456,4 +456,6 @@
 <script>
 var options={ "publisher": "9917913f-c1f4-4f1a-a41f-ea83d1a7762d", "position": "left", "ad": { "visible": false, "openDelay": 5, "closeDelay": 0}, "chicklets": { "items": ["facebook", "twitter", "linkedin", "googleplus", "email"]}};
 var st_hover_widget = new sharethis.widgets.hoverbuttons(options);
+
+document.oncontextmenu =new Function("return false;")
 </script>
