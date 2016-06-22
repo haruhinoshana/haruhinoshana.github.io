@@ -1,0 +1,233 @@
+body{
+ 	background-color: #e9eaed;
+}
+.navbar-fb{
+	background-color:#3b5998;
+} 
+
+.navbar-custom {
+	background-color:#3b5998;
+    color:#ffffff;
+  	border-radius:0;
+}
+  
+.navbar-custom .navbar-nav > li > a {
+  	color:#fff;
+  	padding-left:20px;
+  	padding-right:20px;
+}
+.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+    color: #ffffff;
+	background-color:transparent;
+}
+      
+.navbar-custom .navbar-nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: #3b597f;;
+}
+.navbar-custom .navbar-nav > .active > a, .navbar-x .navbar-nav > .active > a:hover, .navbar-x .navbar-nav > .active > a:focus {
+	color: #e8e6f4;
+	background-color: #3b597f;
+}
+      
+.navbar-custom .navbar-brand {
+  	color:#eeeeee;
+}
+.navbar-custom .navbar-toggle {
+  	background-color:#3b5998;
+}
+.navbar-custom .icon-bar {
+  	background-color:#ffffff;
+}
+.logo{
+	margin-left:15px;
+}
+.well-moded{
+//margin: auto;
+background-color: #ffffff;
+//padding-left: 40px;
+//padding-bottom: 40px;
+box-shadow: 0px 10px 20px 3px #d3d3d3;
+height:315px;
+}
+
+
+.border-r{
+border-right: 1px solid #dddddd;
+float: left;
+font-size: 14px;
+font-weight: bold;
+height: 43px;
+line-height: 3.05;
+padding: 0 17px;
+position: relative;
+vertical-align: middle;
+white-space: nowrap;
+}
+.btn-trans{
+	background-color:#fff;
+	border-left:transparent;
+	height:31px;
+}
+.prof-name{
+	//font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 30px;
+	max-width: 275px;
+	color:black;
+}
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+.prof-name{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 30px;
+	//max-width: 275px;
+	color:black;
+}
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+.prof-name{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 30px;
+	//max-width: 275px;
+	color:black;
+}
+
+.pp{
+background: rgba(0, 0, 0, .3);
+-webkit-border-radius: 3px;
+-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .07);
+display: block;
+left: 23px;
+margin-top: -121px;
+padding: 1px;
+position: absolute;
+-webkit-box-shadow: none;
+left: 15px;
+margin-top: 0;
+top: -73px;	
+height:100px;
+width:100px;
+background-color:#ffffff;
+border:1px solid;
+border-color:#ddd;
+padding:2px;
+cursor:pointer;
+}
+
+
+.imgx{
+width:93px;
+height:93px;	
+}
+.colxs{
+	height:25px;
+	width:120px;
+}
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 950px)
+and (min-width : 1160px)
+and (min-width : 1224px) {
+/* Styles */
+
+.pp{
+background: rgba(0, 0, 0, .3);
+-webkit-border-radius: 3px;
+-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .07);
+display: block;
+left: 23px;
+margin-top: -121px;
+padding: 1px;
+position: absolute;
+-webkit-box-shadow: none;
+left: 15px;
+margin-top: 0;
+top: -143px;	
+height:168px;
+width:168px;
+background-color:#ffffff;
+border:1px solid;
+border-color:#ddd;
+padding:2px;
+cursor:pointer;
+}
+.prof-name{
+	//font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 30px;
+	max-width: 275px;
+	color:black;
+}
+.imgx{
+width:162px;
+height:162px;	
+}
+.colxs{
+	height:25px;
+	width:200px;
+}
+
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
+	
