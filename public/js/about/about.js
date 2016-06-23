@@ -20,4 +20,8 @@ $(window).ready(function(e){
 				
 				$('html, body').animate({scrollTop: 0}, 300);
 			});
+    $(".fancybox").fancybox({
+        openEffect: "none",
+        closeEffect: "none"
+    });			
 });
