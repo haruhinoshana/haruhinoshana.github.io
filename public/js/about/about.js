@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	
+document.oncontextmenu =new Function("return false;");	
 $(window).ready(function(e){
       $.each($('div.progress-bar'),function(){
         $(this).css('width', $(this).attr('aria-valuetransitiongoal')+'%');
